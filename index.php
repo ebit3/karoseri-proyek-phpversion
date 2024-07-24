@@ -23,9 +23,10 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top transparent">
         <div class="container">
-            <a class="navbar-brand" href="#">CV Mandiri Kerja Abadi</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="#">MK<span class="highlight">A</span></a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
@@ -38,6 +39,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#products">Produk</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#After Sales">After Sales</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -46,8 +50,11 @@
     <!-- Hero Section -->
     <section id="hero" class="hero">
         <div class="container">
-            <p class="lead">Your trusted partner in quality and excellence.</p>
-            <h1 class="display-4 fw-bold">Welcome to CV Mandiri Kerja Abadi</h1>
+            <p class="lead">Transforming your commercial vehicles</p>
+            <div class="welcome-text">
+                <div>WELCOME TO</div>
+                <div>CV. MANDIRI KERJA ABADI</div>
+                </div>
             <a href="#about" class="btn btn-hero">Learn More</a>
         </div>
     </section>
@@ -58,90 +65,45 @@
             <h2 class="text-center mb-5 fw-bold">Tentang Kami</h2>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="assets/image/about-us-image.jpg" alt="About Us" class="img-fluid mb-4">
-                </div>
-                <div class="col-md-6">
-                    <p>CV Mandiri Kerja Abadi is a leading company in providing quality solutions for various
-                        industries. Our mission is to deliver exceptional products and services that exceed our
-                        clients' expectations.</p>
-                    <p>We have a team of experienced professionals dedicated to ensuring the highest standards in
-                        everything we do. Our commitment to excellence is reflected in our numerous satisfied
-                        clients and successful projects.</p>
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <div class="feature-box">
-                                <div class="feature-icon">
-                                    <i class="bi bi-graph-up"></i>
-                                </div>
-                                <h5>Innovative Solutions</h5>
-                                <p>We provide innovative solutions that help your business stay ahead of the
-                                    competition.</p>
-                            </div>
+                    <div class="karir-section">
+                        <div class="image-container">
+                            <div class="background-shape"></div>
+                            <img src="assets/image/LOGOKANTOR.jpg" alt="About Us" class="team-image img-fluid mb-4">
                         </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="feature-box">
-                                <div class="feature-icon">
-                                    <i class="bi bi-people-fill"></i>
-                                </div>
-                                <h5>Expert Team</h5>
-                                <p>Our team of experts is dedicated to delivering the highest quality service to our
-                                    clients.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="feature-box">
-                                <div class="feature-icon">
-                                    <i class="bi bi-clock-fill"></i>
-                                </div>
-                                <h5>Timely Delivery</h5>
-                                <p>We ensure that all projects are completed on time, every time.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="feature-box">
-                                <div class="feature-icon">
-                                    <i class="bi bi-geo-alt-fill"></i>
-                                </div>
-                                <h5>Global Reach</h5>
-                                <p>Our services are available globally, providing solutions to clients worldwide.
-                                </p>
-                            </div>
+                        <div class="content">
+                            <p class="section-label">KARIR</p>
+                            <h2 class="section-title">Berkarya di Telkomsel</h2>
+                            <p class="section-description">Memberikan talent kami kesempatan untuk menciptakan dampak yang nyata bagi kemajuan Indonesia. Bersiaplah untuk menghadirkan inovasi dan memberi arti bersama Telkomsel.</p>
+                            <button class="cta-button">Selengkapnya</button>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Company Advantages Section -->
-    <section id="advantages" class="advantages bg-light">
-        <div class="container">
-            <h2 class="text-center mb-5 fw-bold">Keunggulan Perusahaan</h2>
-            <div class="row">
-                <div class="col-md-4 text-center">
-                    <div class="icon mb-3">
-                        <i class="bi bi-star-fill"></i>
+                <div class="col-md-6 mb-3">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <h5>Expert Team</h5>
+                        <p>Our team of experts is dedicated to delivering the highest quality service to our clients.</p>
                     </div>
-                    <h3>High Quality</h3>
-                    <p>We provide the highest quality products, using the best materials and latest technology to
-                        ensure that our products meet the highest standards and exceed your expectations.</p>
                 </div>
-                <div class="col-md-4 text-center">
-                    <div class="icon mb-3">
-                        <i class="bi bi-award-fill"></i>
+                <div class="col-md-6 mb-3">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-clock-fill"></i>
+                        </div>
+                        <h5>Timely Delivery</h5>
+                        <p>We ensure that all projects are completed on time, every time.</p>
                     </div>
-                    <h3>Trusted</h3>
-                    <p>Our company is trusted by numerous leading businesses, thanks to our consistent track record
-                        of delivering reliable and effective solutions tailored to each client's unique needs.</p>
                 </div>
-                <div class="col-md-4 text-center">
-                    <div class="icon mb-3">
-                        <i class="bi bi-heart-fill"></i>
+                <div class="col-md-6 mb-3">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+                        <h5>Global Reach</h5>
+                        <p>Our services are available globally, providing solutions to clients worldwide.</p>
                     </div>
-                    <h3>Customer Satisfaction</h3>
-                    <p>Customer satisfaction is at the heart of our operations. We are committed to providing
-                        exceptional service, ensuring that every client is completely satisfied with our products
-                        and services.</p>
                 </div>
             </div>
         </div>
@@ -210,7 +172,7 @@
     <!-- Parallax Section -->
     <section id="parallax" class="parallax">
         <div class="container text-center">
-            <h2>Kembangkan potensi usaha anda dengan Karoseri</h2>
+        <h2 class="white-text">Kembangkan Potensi Usaha Anda Dengan Karoseri</h2>
             <p>Mencari Solusi Bisnis Yang Tepat Untuk Kebutuhan Usaha Anda?</p>
         </div>
     </section>
@@ -235,7 +197,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card border-0 shadow-sm">
-                        <img src="assets/image/product1.jpg" class="card-img-top" alt="Produk 1">
+                        <img src="assets/image/product2.jpg" class="card-img-top" alt="Produk 1">
                         <div class="card-body text-center">
                             <h5 class="card-title">Nama Produk 1</h5>
                             <p class="card-text">Sedikit penjelasan mengenai produk ini. Produk ini menawarkan
@@ -247,7 +209,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card border-0 shadow-sm">
-                        <img src="assets/image/product1.jpg" class="card-img-top" alt="Produk 1">
+                        <img src="assets/image/product3.jpg" class="card-img-top" alt="Produk 1">
                         <div class="card-body text-center">
                             <h5 class="card-title">Nama Produk 1</h5>
                             <p class="card-text">Sedikit penjelasan mengenai produk ini. Produk ini menawarkan
@@ -259,8 +221,8 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card border-0 shadow-sm">
-                        <img src="assets/image/product1.jpg" class="card-img-top" alt="Produk 1">
-                        <div class="card-body text-center">
+                        <img src="assets/image/product4.jpg" class="card-img-top" alt="Produk 1">
+                        <div class="card-body text-center1">
                             <h5 class="card-title">Nama Produk 1</h5>
                             <p class="card-text">Sedikit penjelasan mengenai produk ini. Produk ini menawarkan
                                 fitur-fitur
@@ -272,8 +234,8 @@
                 <!-- Product Item -->
                 <div class="col-md-4 mb-4">
                     <div class="card border-0 shadow-sm">
-                        <img src="assets/image/product2.jpg" class="card-img-top" alt="Produk 2">
-                        <div class="card-body text-center">
+                        <img src="assets/image/product5.jpg" class="card-img-top" alt="Produk 2">
+                        <div class="card-body text-center1">
                             <h5 class="card-title">Nama Produk 2</h5>
                             <p class="card-text">Sedikit penjelasan mengenai produk ini. Produk ini menawarkan
                                 fitur-fitur
@@ -286,7 +248,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="card border-0 shadow-sm">
                         <img src="assets/image/product3.jpg" class="card-img-top" alt="Produk 3">
-                        <div class="card-body text-center">
+                        <div class="card-body text-center1">
                             <h5 class="card-title">Nama Produk 3</h5>
                             <p class="card-text">Sedikit penjelasan mengenai produk ini. Produk ini menawarkan
                                 fitur-fitur
@@ -383,23 +345,104 @@
     <!-- Pengajuan Section -->
     <section id="pengajuan" class="py-5 bg-light">
         <div class="container">
-            <h2 class="text-center mb-4 fw-bold">Pengajuan</h2>
+            <h2 class="text-center mb-4 fw-bold">Pengajuan Layanan After Sales</h2>
             <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-8">
-                    <form action="servermail.php" method="post">
+                <div class="col-lg-8 col-md-10">
+                    <form action="servermail.php" method="post" enctype="multipart/form-data">
+                        <!-- Informasi Pelanggan -->
                         <div class="mb-3">
-                            <label for="name" class="form-label">Nama</label>
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Masukkan nama Anda">
+                            <h4>Informasi Pelanggan</h4>
+                            <label for="nama" class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" name="nama" id="nama" placeholder="Masukkan nama Anda" required>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan email Anda">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan email Anda" required>
                             <small class="form-text text-danger">Gunakan alamat email asli agar pesan dapat terkonfirmasi dengan jelas.</small>
                         </div>
                         <div class="mb-3">
-                            <label for="details" class="form-label">Detail Pengajuan</label>
-                            <textarea class="form-control" name="des" id="details" rows="5" placeholder="Masukkan detail pengajuan Anda"></textarea>
+                            <label for="telepon" class="form-label">Nomor Telepon</label>
+                            <input type="tel" class="form-control" id="telepon" name="telepon" placeholder="Masukkan nomor telepon Anda" required>
                         </div>
+                        <div class="mb-3">
+                            <label for="alamat" class="form-label">Alamat</label>
+                            <textarea class="form-control" id="alamat" name="alamat" rows="3" placeholder="Masukkan alamat Anda" required></textarea>
+                        </div>
+
+                        <!-- Informasi Kendaraan -->
+                        <div class="mb-3">
+                            <h4>Informasi Kendaraan</h4>
+                            <label for="merek" class="form-label">Merek Kendaraan</label>
+                            <input type="text" class="form-control" id="merek" name="merek" placeholder="Masukkan merek kendaraan" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="model" class="form-label">Model Kendaraan</label>
+                            <input type="text" class="form-control" id="model" name="model" placeholder="Masukkan model kendaraan" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="tahun" class="form-label">Tahun Pembuatan</label>
+                            <input type="number" class="form-control" id="tahun" name="tahun" placeholder="Masukkan tahun pembuatan" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="nopol" class="form-label">Nomor Polisi</label>
+                            <input type="text" class="form-control" id="nopol" name="nopol" placeholder="Masukkan nomor polisi" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="vin" class="form-label">Nomor Rangka (VIN)</label>
+                            <input type="text" class="form-control" id="vin" name="vin" placeholder="Masukkan nomor rangka (VIN)" required>
+                        </div>
+
+                        <!-- Layanan yang Diperlukan -->
+                        <div class="mb-3">
+                            <h4>Layanan yang Diperlukan</h4>
+                            <label for="jenis-layanan" class="form-label">Jenis Layanan</label>
+                            <select class="form-select" id="jenis-layanan" name="jenis_layanan" required>
+                                <option value="pemeliharaan-rutin">Pemeliharaan Rutin</option>
+                                <option value="perbaikan-kerusakan">Perbaikan Kerusakan</option>
+                                <option value="penggantian-komponen">Penggantian Komponen</option>
+                                <option value="modifikasi-kendaraan">Modifikasi Kendaraan</option>
+                                <option value="lainnya">Lainnya</option>
+                            </select>
+                        </div>
+
+                        <!-- Deskripsi Masalah / Permintaan Layanan -->
+                        <div class="mb-3">
+                            <h4>Deskripsi Masalah / Permintaan Layanan</h4>
+                            <label for="details" class="form-label">Deskripsi Masalah atau Permintaan</label>
+                            <textarea class="form-control" name="deskripsi_masalah" id="details" rows="5" placeholder="Masukkan deskripsi masalah atau permintaan Anda" required></textarea>
+                        </div>
+
+                        <!-- Lampiran Foto atau Dokumen (Opsional) -->
+                        <div class="mb-3">
+                            <h4>Lampiran Foto atau Dokumen (Opsional)</h4>
+                            <label for="lampiran" class="form-label">Unggah Foto atau Dokumen</label>
+                            <input type="file" class="form-control" id="lampiran" name="lampiran">
+                        </div>
+
+                        <!-- Jadwal dan Lokasi Layanan -->
+                        <div class="mb-3">
+                            <h4>Jadwal dan Lokasi Layanan</h4>
+                            <label for="tanggal" class="form-label">Tanggal yang Diinginkan</label>
+                            <input type="date" class="form-control" id="tanggal" name="tanggal" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="waktu" class="form-label">Waktu yang Diinginkan</label>
+                            <input type="time" class="form-control" id="waktu" name="waktu" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lokasi" class="form-label">Lokasi Layanan</label>
+                            <select class="form-select" id="lokasi" name="lokasi" required>
+                                <option value="di-bengkel">Di Bengkel</option>
+                                <option value="di-lokasi-pelanggan">Di Lokasi Pelanggan</option>
+                            </select>
+                        </div>
+
+                        <!-- Persetujuan dan Tanda Tangan -->
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="persetujuan" name="persetujuan" required>
+                            <label class="form-check-label" for="persetujuan">Dengan ini saya menyetujui syarat dan ketentuan layanan after sales yang telah ditetapkan.</label>
+                        </div>
+
                         <div class="d-grid">
                             <button type="submit" class="btn btn-primary btn-block">Kirim Pengajuan</button>
                         </div>
@@ -408,7 +451,6 @@
             </div>
         </div>
     </section>
-
     <!-- Location Section -->
     <section id="location" class="location">
         <div class="container">
