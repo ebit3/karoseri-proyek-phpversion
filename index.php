@@ -49,65 +49,70 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero">
-        <div class="container">
-            <p class="lead">Transforming your commercial vehicles</p>
-            <div class="welcome-text">
-                <div>WELCOME TO</div>
-                <div>CV. MANDIRI KERJA ABADI</div>
-                </div>
-            <a href="#about" class="btn btn-hero">Learn More</a>
+    <div class="container">
+        <p class="lead">Transforming your commercial vehicles</p>
+        <div class="welcome-text">
+            <div>WELCOME TO</div>
+            <div>CV. MANDIRI KERJA ABADI</div>
         </div>
-    </section>
+        <a href="#about" class="btn">Learn More</a>
+    </div>
+</section>
 
     <!-- About Us Section -->
     <section id="about" class="about">
-        <div class="container">
-            <h2 class="text-center mb-5 fw-bold">Tentang Kami</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="karir-section">
-                        <div class="image-container">
-                            <div class="background-shape"></div>
-                            <img src="assets/image/LOGOKANTOR.jpg" alt="About Us" class="team-image img-fluid mb-4">
-                        </div>
-                        <div class="content">
-                            <p class="section-label">KARIR</p>
-                            <h2 class="section-title">Berkarya di Telkomsel</h2>
-                            <p class="section-description">Memberikan talent kami kesempatan untuk menciptakan dampak yang nyata bagi kemajuan Indonesia. Bersiaplah untuk menghadirkan inovasi dan memberi arti bersama Telkomsel.</p>
-                            <button class="cta-button">Selengkapnya</button>
-                        </div>
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold">Tentang Kami</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="karir-section d-flex align-items-center">
+                    <div class="image-container">
+                        <img src="assets/image/LOGOKANTOR.jpg" alt="About Us" class="team-image img-fluid mb-4">
                     </div>
-                </div>
-                <div class="col-md-6 mb-3">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="bi bi-people-fill"></i>
-                        </div>
-                        <h5>Expert Team</h5>
-                        <p>Our team of experts is dedicated to delivering the highest quality service to our clients.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-3">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="bi bi-clock-fill"></i>
-                        </div>
-                        <h5>Timely Delivery</h5>
-                        <p>We ensure that all projects are completed on time, every time.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-3">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="bi bi-geo-alt-fill"></i>
-                        </div>
-                        <h5>Global Reach</h5>
-                        <p>Our services are available globally, providing solutions to clients worldwide.</p>
+                    <div class="content ms-4">
+                        <p class="section-label">HISTORI</p>
+                        <h2 class="section-title">Mandiri Kerja Abadi</h2>
+                        <p class="section-description">
+                            Mandiri Kerja Abadi berdiri sejak 30 Maret 2016. Jauh sebelum menjadi perusahaan karoseri, saat itu bernama UD. Mandiri Kerja Abadi adalah perusahaan transportasi kendaraan Niaga. Dimana semua perakitan setiap unit nya dikerjakan secara mandiri oleh enginer handal yang dimiliki oleh perusahaan. Banyak tahapan trial & error mengenaI perakitan bak, sampai disuatu titik perusahaan menemukan spesifikasi material yang terbaik untuk pembuatan sebuah bak.
+
+Hingga pada tanggal 30 Maret 2016 perusahaan kami resmi menjadi karoseri terdaftar dibawah Naungan Dinas perhubungan demi mendapatkan kepercayaan lebih di mata konsumen dengan pengalaman lebih dari 10 tahun, kami percaya mampu memenuhi ekspektasi setiap konsumen kami. Salam hangat dari kami.</p>
+                        <a href="#about" class="btn">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="row mt-5">
+            <div class="col-md-6 mb-3">
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="bi bi-people-fill"></i>
+                    </div>
+                    <h5>Expert Team</h5>
+                    <p>Our team of experts is dedicated to delivering the highest quality service to our clients.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="bi bi-clock-fill"></i>
+                    </div>
+                    <h5>Timely Delivery</h5>
+                    <p>We ensure that all projects are completed on time, every time.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </div>
+                    <h5>Global Reach</h5>
+                    <p>Our services are available globally, providing solutions to clients worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     <!-- Employee Section -->
     <section id="employees" class="py-5">
@@ -191,7 +196,7 @@
                             <p class="card-text">Sedikit penjelasan mengenai produk ini. Produk ini menawarkan
                                 fitur-fitur
                                 unggulan dan keunggulan yang membuatnya istimewa.</p>
-                            <a href="#" class="btn btn-primary">Lihat Detail</a>
+                            <a href="#" class="btn">Lihat Detail</a>
                         </div>
                     </div>
                 </div>
@@ -203,7 +208,7 @@
                             <p class="card-text">Sedikit penjelasan mengenai produk ini. Produk ini menawarkan
                                 fitur-fitur
                                 unggulan dan keunggulan yang membuatnya istimewa.</p>
-                            <a href="#" class="btn btn-primary">Lihat Detail</a>
+                            <a href="#" class="btn">Lihat Detail</a>
                         </div>
                     </div>
                 </div>
@@ -215,7 +220,7 @@
                             <p class="card-text">Sedikit penjelasan mengenai produk ini. Produk ini menawarkan
                                 fitur-fitur
                                 unggulan dan keunggulan yang membuatnya istimewa.</p>
-                            <a href="#" class="btn btn-primary">Lihat Detail</a>
+                                <a href="#" class="btn">Lihat Detail</a>
                         </div>
                     </div>
                 </div>
@@ -227,7 +232,7 @@
                             <p class="card-text">Sedikit penjelasan mengenai produk ini. Produk ini menawarkan
                                 fitur-fitur
                                 unggulan dan keunggulan yang membuatnya istimewa.</p>
-                            <a href="#" class="btn btn-primary">Lihat Detail</a>
+                            <a href="#" class="btn">Lihat Detail</a>
                         </div>
                     </div>
                 </div>
@@ -240,7 +245,7 @@
                             <p class="card-text">Sedikit penjelasan mengenai produk ini. Produk ini menawarkan
                                 fitur-fitur
                                 unggulan dan keunggulan yang membuatnya istimewa.</p>
-                            <a href="#" class="btn btn-primary">Lihat Detail</a>
+                            <a href="#" class="btn">Lihat Detail</a>
                         </div>
                     </div>
                 </div>
@@ -253,7 +258,7 @@
                             <p class="card-text">Sedikit penjelasan mengenai produk ini. Produk ini menawarkan
                                 fitur-fitur
                                 unggulan dan keunggulan yang membuatnya istimewa.</p>
-                            <a href="#" class="btn btn-primary">Lihat Detail</a>
+                            <a href="#" class="btn">Lihat Detail</a>
                         </div>
                     </div>
                 </div>
@@ -444,7 +449,7 @@
                         </div>
 
                         <div class="d-grid">
-                            <button type="submit" class="btn btn-primary btn-block">Kirim Pengajuan</button>
+                            <button type="submit" class="btn">Kirim Pengajuan</button>
                         </div>
                     </form>
                 </div>

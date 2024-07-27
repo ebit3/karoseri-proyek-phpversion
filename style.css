@@ -448,8 +448,8 @@ h4 {
 }
 
 .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #108624;
+    border-color: #7194b900;
     padding: 0.75rem;
     font-size: 1rem;
     border-radius: 4px;
@@ -457,8 +457,8 @@ h4 {
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #004085;
+    background-color: #ffffff;
+    border-color: #00408500;
 }
 
 @media (max-width: 576px) {
@@ -616,13 +616,241 @@ body {
     line-height: 1.6;
 }
 
-.team-image {     width: 100%;
-    height: 100%;
-    object-fit: cover; };
+.team-image {
+    width: 200px; /* Set the desired width and height */
+    height: 200px; /* Make height equal to width to form a square */
+    object-fit: cover; /* Ensure the image fits within the square without distortion */
+    border-radius: 0; /* Remove any rounded corners if present */
+}
+.about {
+    padding: 50px 0;
+}
 
-    .background-shape {
-    width: 300px; /* lebar kontainer */
-    height: 200px; /* tinggi kontainer */
-    overflow: hidden; /* memotong konten yang melampaui batas kontainer */
-    border-radius: 50px; /* radius sudut */
-    position: relative;}
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 300px; /* Increased size */
+    height: 300px; /* Increased size */
+}
+
+.background-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #002d62; /* Dark blue color for the rectangle */
+    z-index: 1;
+    border-radius: 20px; /* Optional: to make the corners rounded */
+}
+
+.team-image {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px; /* Optional: to match the shape's rounded corners */
+}
+
+.karir-section {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.section-label {
+    font-size: 14px;
+    color: #999;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e30613; /* Red color */
+}
+
+.section-description {
+    font-size: 16px;
+    color: #333;
+}
+
+.cta-button {
+    background-color: #e30613; /* Red color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px; /* Optional: to make the button rounded */
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #bf0410; /* Darker red on hover */
+}
+
+.about {
+    padding: 50px 0;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 600px; /* Width for the rectangle */
+    height: 300px; /* Height for the rectangle */
+}
+
+.background-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #002d62; /* Dark blue color for the rectangle */
+    z-index: 1;
+    border-radius: 20px; /* Optional: to make the corners rounded */
+}
+
+.team-image {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px; /* Optional: to match the shape's rounded corners */
+}
+
+.karir-section {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.section-label {
+    font-size: 14px;
+    color: #999;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e30613; /* Red color */
+}
+
+.section-description {
+    font-size: 16px;
+    color: #333;
+}
+
+.cta-button {
+    background-color: #e30613; /* Red color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px; /* Optional: to make the button rounded */
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #bf0410; /* Darker red on hover */
+}
+.about {
+    padding: 50px 0;
+}
+
+.karir-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 40px; /* Shift both image and text to the right */
+}
+
+.image-container {
+    position: relative;
+    width: 500px; /* Increase the width */
+    height: 350px; /* Increase the height */
+}
+
+.team-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.content {
+    flex: 1;
+}
+
+.section-label {
+    font-size: 14px;
+    color: #999;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #156b19;
+}
+
+.section-description {
+    font-size: 16px;
+    color: #333;
+}
+
+.cta-button {
+    background-color: #266434;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #bf0410;
+}
+
+.feature-box {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.feature-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #15661f;
+}
+
+.content {
+    position: relative; /* Atur posisi elemen relatif terhadap posisinya yang normal */
+    top: 40px; /* Geser elemen ke atas sebesar 20px */
+    margin-left: 1rem; /* Sesuaikan jarak dari kiri sesuai dengan kelas ms-4 */
+}
+
+.btn {
+    background-color: #108624;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e7e7e771;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.about {
+    top: 50px;
+}
