@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 body {
-    overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 .hero,
@@ -18,433 +18,431 @@ body {
 .clients,
 .location,
 .footer {
-    padding: 60px 0;
-    font-family: 'Poppins', sans-serif;
-
+	padding: 60px 0;
+	font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-    transition: background-color 0.3s ease;
-    font-family: 'Poppins', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	transition: background-color 0.3s ease;
+	font-family: 'Poppins', sans-serif;
 }
 
 .navbar.transparent {
-    background-color: transparent;
-    box-shadow: none;
+	background-color: transparent;
+	box-shadow: none;
 }
 
 .navbar.scrolled {
-    background-color: rgba(51, 78, 67, 0.8); 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	background-color: rgba(51, 78, 67, 0.8);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar .navbar-brand {
-    color: #ffffff;
-    font-size: 36px;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
 }
 
 .highlight {
-    color: #00985B;
+	color: #00985b;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-    color: #ffffff;
-    font-size: 14px; 
-    font-weight: 500; 
-    font-family: 'Poppins', sans-serif;
-    padding: 0 20px;
-    transition: color 0.3s ease;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+	padding: 0 20px;
+	transition: color 0.3s ease;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
-    color: #00985B;
+	color: #00985b;
 }
 
 .navbar.scrolled .navbar-brand,
 .navbar.scrolled .navbar-nav .nav-link {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 .navbar.scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #00985B;
+	color: #00985b;
 }
 
 .hero {
-    position: relative;
-    background: url('assets/image/your-hero-image.jpg') no-repeat center center;
-    background-size: cover;
-    color: white;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
+	position: relative;
+	background: url('assets/image/your-hero-image.jpg') no-repeat center center;
+	background-size: cover;
+	color: white;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
 }
 
 .hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
 }
 
 .hero .container {
-    position: relative;
-    z-index: 1;
-    text-align: left;
+	position: relative;
+	z-index: 1;
+	text-align: left;
 }
 
 .welcome-text {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    margin-bottom: 20px;
-    text-align: left;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	margin-bottom: 20px;
+	text-align: left;
 }
 
 .welcome-text div {
-    margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 .welcome-text div:nth-child(2),
 .welcome-text div:nth-child(3) {
-    margin-left: 0px;
+	margin-left: 0px;
 }
 
 .btn-hero {
-    display: inline-block;
-    padding: 12px 30px;
-    font-size: 1.25rem;
-    font-weight: 500;
-    color: #ffffff;
-    background-color: #00985B;
-    border: none;
-    border-radius: 30px;
-    text-align: center;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-family: 'Poppins', sans-serif;
+	display: inline-block;
+	padding: 12px 30px;
+	font-size: 1.25rem;
+	font-weight: 500;
+	color: #ffffff;
+	background-color: #00985b;
+	border: none;
+	border-radius: 30px;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	font-family: 'Poppins', sans-serif;
 }
 
 .btn-hero:hover,
 .btn-hero:focus {
-    background-color: rgba(0, 152, 91, 0.78);
-    color: #ffffff;
+	background-color: rgba(0, 152, 91, 0.78);
+	color: #ffffff;
 }
 
 .icon {
-    font-size: 3rem;
-    color: #007bff;
+	font-size: 3rem;
+	color: #007bff;
 }
 
 .about .feature-icon {
-    font-size: 2.5rem;
-    color: #007bff;
-    margin-bottom: 1rem;
-    font-family: 'Poppins', sans-serif;
+	font-size: 2.5rem;
+	color: #007bff;
+	margin-bottom: 1rem;
+	font-family: 'Poppins', sans-serif;
 }
 
 .about .feature-box {
-    text-align: center;
-    padding: 1.5rem;
-    border: 1px solid #e7e7e7;
-    border-radius: 0.5rem;
-    transition: box-shadow 0.3s;
-    font-family: 'Poppins', sans-serif;
+	text-align: center;
+	padding: 1.5rem;
+	border: 1px solid #e7e7e7;
+	border-radius: 0.5rem;
+	transition: box-shadow 0.3s;
+	font-family: 'Poppins', sans-serif;
 }
 
 .about .feature-box:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .clients-logo {
-    padding: 15px;
-    background: #fff;
-    border: 1px solid #e7e7e7;
-    border-radius: 0.5rem;
-    transition: box-shadow 0.3s;
-    font-family: 'Poppins', sans-serif;
+	padding: 15px;
+	background: #fff;
+	border: 1px solid #e7e7e7;
+	border-radius: 0.5rem;
+	transition: box-shadow 0.3s;
+	font-family: 'Poppins', sans-serif;
 }
 
 .clients-logo:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .clients-logo img {
-    max-width: 100%;
-    height: auto; /* Pastikan gambar tidak terdistorsi */
+	max-width: 100%;
+	height: auto; /* Pastikan gambar tidak terdistorsi */
 }
 
 .carousel-control-prev,
 .carousel-control-next {
-    width: 5%;
+	width: 5%;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	padding: 10px;
 }
 
 .location iframe {
-    border: 0;
-    width: 100%;
-    height: 450px;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border: 0;
+	width: 100%;
+	height: 450px;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .parallax {
-    position: relative;
-    background: url('assets/image/your-hero-image.jpg') no-repeat center center;
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;
-    padding: 60px 0;
-    text-align: center;
-    z-index: 1;
-    font-family: 'Poppins', sans-serif;
+	position: relative;
+	background: url('assets/image/your-hero-image.jpg') no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	padding: 60px 0;
+	text-align: center;
+	z-index: 1;
+	font-family: 'Poppins', sans-serif;
 }
 
 .parallax::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: -1;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: -1;
 }
 
 .parallax h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
 }
 
 .parallax p {
-    font-size: 1.25rem;
-    font-family: 'Poppins', sans-serif;
+	font-size: 1.25rem;
+	font-family: 'Poppins', sans-serif;
 }
 
 .employee-carousel .carousel-item img {
-    max-height: 200px;
-    object-fit: cover;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
+	max-height: 200px;
+	object-fit: cover;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
 }
 
-#about, #products {
-    padding-top: 120px;
+#about,
+#products {
+	padding-top: 120px;
 }
 
 @media (max-width: 768px) {
-    #about, #products {
-        padding-top: 10px;
-    }
+	#about,
+	#products {
+		padding-top: 10px;
+	}
 
-    .hero {
-        height: auto; /* Adjust height for smaller screens */
-        min-height: 400px; 
-    }
+	.hero {
+		height: auto; /* Adjust height for smaller screens */
+		min-height: 400px;
+	}
 }
 
 /* Kurangi padding pada section about */
 .about {
-    padding: 20px 0; /* Sesuaikan nilai ini untuk mengatur jarak ke atas */
+	padding: 20px 0; /* Sesuaikan nilai ini untuk mengatur jarak ke atas */
 }
 
 .LOGOKANTOR-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    margin: 0 auto;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
 }
 
 .LOGOKANTOR-container::before {
-    content: '';
-    display: block;
-    padding-top: 56.25%; /* Aspect ratio 16:9, sesuaikan jika perlu */
+	content: '';
+	display: block;
+	padding-top: 56.25%; /* Aspect ratio 16:9, sesuaikan jika perlu */
 }
 
 .LOGOKANTOR {
-    position: absolute;
-    top: 0; /* Atur ini agar gambar tidak terpotong dari bagian atas */
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* Mengatur gambar agar tidak terpotong */
-    max-width: 100%; /* Menghindari gambar terlalu lebar */
-    max-height: 100%; /* Menghindari gambar terlalu tinggi */
-    background-position: center; /* Memastikan gambar berada di tengah */
-    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+	position: absolute;
+	top: 0; /* Atur ini agar gambar tidak terpotong dari bagian atas */
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: contain; /* Mengatur gambar agar tidak terpotong */
+	max-width: 100%; /* Menghindari gambar terlalu lebar */
+	max-height: 100%; /* Menghindari gambar terlalu tinggi */
+	background-position: center; /* Memastikan gambar berada di tengah */
+	background-repeat: no-repeat; /* Menghindari pengulangan gambar */
 }
 
 .LOGOKANTOR-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .LOGOKANTOR-container::before {
-    content: '';
-    display: block;
-    padding-top: 56.25%; /* Aspect ratio 16:9, sesuaikan jika perlu */
+	content: '';
+	display: block;
+	padding-top: 56.25%; /* Aspect ratio 16:9, sesuaikan jika perlu */
 }
 
 .about-image {
-    margin-top: 0; /* Sesuaikan ini jika diperlukan */
+	margin-top: 0; /* Sesuaikan ini jika diperlukan */
 }
 
 /* Aturan untuk gambar jika menggunakan background-image */
 .LOGOKANTOR-background {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-image: url('path-to-your-image.jpg'); /* Ganti dengan path gambar yang sesuai */
-   /* Pastikan gambar mengisi kontainer */
-    background-position: center; /* Memusatkan gambar */
-    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url('path-to-your-image.jpg'); /* Ganti dengan path gambar yang sesuai */
+	/* Pastikan gambar mengisi kontainer */
+	background-position: center; /* Memusatkan gambar */
+	background-repeat: no-repeat; /* Menghindari pengulangan gambar */
 }
 
 .LOGOKANTOR-container {
-    position: relative;
-    width: 50%;
-    overflow: hidden;
-    margin: 0 auto;
-	
+	position: relative;
+	width: 50%;
+	overflow: hidden;
+	margin: 0 auto;
 }
 
 .LOGOKANTOR-container::before {
-    content: '';
-    display: block;
-    padding-top: 56.25%; /* Aspect ratio 16:9, sesuaikan jika perlu */
+	content: '';
+	display: block;
+	padding-top: 56.25%; /* Aspect ratio 16:9, sesuaikan jika perlu */
 }
 
 .LOGOKANTOR {
-    position: absolute;
-    top: 0; /* Atur ini sesuai kebutuhan */
-    left: 50%;
-    transform: translateX(-50%); /* Memusatkan gambar secara horizontal */
-    max-width: 0%; /* Mengatur lebar gambar agar tidak melebihi 90% dari lebar kontainer */
-    height: auto; /* Menjaga rasio gambar */
-	
-	
+	position: absolute;
+	top: 0; /* Atur ini sesuai kebutuhan */
+	left: 50%;
+	transform: translateX(-50%); /* Memusatkan gambar secara horizontal */
+	max-width: 0%; /* Mengatur lebar gambar agar tidak melebihi 90% dari lebar kontainer */
+	height: auto; /* Menjaga rasio gambar */
 }
 
 .about-image {
-    margin-top: 0; /* Sesuaikan ini jika diperlukan */
+	margin-top: 0; /* Sesuaikan ini jika diperlukan */
 }
 .col-md-6 p {
-    margin-left: 30px;
+	margin-left: 30px;
 }
 
 #advantages {
-    background-color: #207c43 !important;
+	background-color: #207c43 !important;
 }
 
 #advantages {
-    background-color: #00985B;
-    color: #ffffff; /* Mengubah warna teks menjadi putih */
+	background-color: #00985b;
+	color: #ffffff; /* Mengubah warna teks menjadi putih */
 }
 
 #advantages .icon i {
-    color: #ffffff; /* Mengubah warna ikon menjadi putih */
+	color: #ffffff; /* Mengubah warna ikon menjadi putih */
 }
 
 .feature-icon {
-	color: #00985B;
+	color: #00985b;
 }
 
 .feature-icon {
-    color: #00985B;
-    font-size: 2em; /* Anda dapat menyesuaikan ukuran ikon sesuai kebutuhan */
+	color: #00985b;
+	font-size: 2em; /* Anda dapat menyesuaikan ukuran ikon sesuai kebutuhan */
 }
 
 /* Jika Anda menggunakan Bootstrap Icons */
 .bi {
-    color: #00985B;
+	color: #00985b;
 }
 
 /* Menambahkan margin jika diperlukan */
 .feature-box {
-    margin: 20px 0;
+	margin: 20px 0;
 }
 
 .feature-box h5 {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 .feature-box p {
-    margin-top: 5px;
+	margin-top: 5px;
 }
 .footer {
-    background-color: #385738 !important; /* Warna hijau tua */
-    color: #ffffff !important; /* Mengubah warna teks menjadi putih */
+	background-color: #385738 !important; /* Warna hijau tua */
+	color: #ffffff !important; /* Mengubah warna teks menjadi putih */
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    margin: 0;
-    padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f8f9fa;
+	margin: 0;
+	padding: 0;
 }
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 15px;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
 
 h2 {
-    color: #343a40;
+	color: #343a40;
 }
 
 h4 {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-    color: #495057;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+	color: #495057;
 }
 
 .form-container {
-    background-color: #ffffff;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+	padding: 2rem;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-label {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .form-control {
-    margin-bottom: 1rem;
-    padding: 0.75rem;
-    border-radius: 4px;
-    border: 1px solid #ced4da;
+	margin-bottom: 1rem;
+	padding: 0.75rem;
+	border-radius: 4px;
+	border: 1px solid #ced4da;
 }
 
 .form-select {
-    margin-bottom: 1rem;
-    padding: 0.75rem;
-    border-radius: 4px;
-    border: 1px solid #ced4da;
+	margin-bottom: 1rem;
+	padding: 0.75rem;
+	border-radius: 4px;
+	border: 1px solid #ced4da;
 }
 
 .btn-primary {
@@ -462,161 +460,164 @@ h4 {
 }
 
 @media (max-width: 576px) {
-    .form-container {
-        padding: 1rem;
-    }
+	.form-container {
+		padding: 1rem;
+	}
 
-    .form-control, .form-select, .btn-primary {
-        font-size: 0.875rem;
-        padding: 0.5rem;
-    }
+	.form-control,
+	.form-select,
+	.btn-primary {
+		font-size: 0.875rem;
+		padding: 0.5rem;
+	}
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #f9f9f9;
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #f9f9f9;
 }
 
 .about {
-    padding: 50px 0;
+	padding: 50px 0;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
 
 .text-center {
-    text-align: center;
+	text-align: center;
 }
 
 .mb-5 {
-    margin-bottom: 3rem;
+	margin-bottom: 3rem;
 }
 
 .fw-bold {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .karir-section {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-bottom: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 50px;
 }
 
 .image-container {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    margin-bottom: 30px;
+	position: relative;
+	width: 100%;
+	height: 400px;
+	margin-bottom: 30px;
 }
 
 .background-shape {
-    position: absolute;
-    top: 0;
-    left: -10%;
-    width: 120%;
-    height: 100%;
-    background-color: #00008B;
-    border-radius: 0 50% 50% 0;
-    z-index: 0;
+	position: absolute;
+	top: 0;
+	left: -10%;
+	width: 120%;
+	height: 100%;
+	background-color: #00008b;
+	border-radius: 0 50% 50% 0;
+	z-index: 0;
 }
 
 .team-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0 50% 50% 0;
-    z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 0 50% 50% 0;
+	z-index: 1;
 }
 
 .content {
-    width: 100%;
-    padding: 20px;
-    text-align: left;
+	width: 100%;
+	padding: 20px;
+	text-align: left;
 }
 
 .section-label {
-    color: #1b613e;
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 1.2em;
+	color: #1b613e;
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-size: 1.2em;
 }
 
 .section-title {
-    color: #FF0000;
-    font-size: 2.5em;
-    font-weight: bold;
-    margin-bottom: 20px;
+	color: #ff0000;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .section-description {
-    color: #333333;
-    margin-bottom: 30px;
-    line-height: 1.6;
+	color: #333333;
+	margin-bottom: 30px;
+	line-height: 1.6;
 }
 
 .cta-button {
-    background-color: #FF0000;
-    color: white;
-    padding: 10px 25px;
-    border: none;
-    border-radius: 25px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+	background-color: #ff0000;
+	color: white;
+	padding: 10px 25px;
+	border: none;
+	border-radius: 25px;
+	font-size: 1em;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #D10000;
+	background-color: #d10000;
 }
 
 .feature-box {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-bottom: 20px;
 }
 
 .feature-icon {
-    font-size: 2em;
-    color: #1c5824;
-    margin-right: 20px;
+	font-size: 2em;
+	color: #1c5824;
+	margin-right: 20px;
 }
 
 .advantages {
-    padding: 50px 0;
+	padding: 50px 0;
 }
 
 .advantages .icon {
-    font-size: 3em;
-    color: #FF0000;
-    margin-bottom: 15px;
+	font-size: 3em;
+	color: #ff0000;
+	margin-bottom: 15px;
 }
 
 .advantages h3 {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-bottom: 20px;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .advantages p {
-    color: #333333;
-    line-height: 1.6;
+	color: #333333;
+	line-height: 1.6;
 }
 
 .team-image {
+
     width: 200px; /* Set the desired width and height */
     height: 200px; /* Make height equal to width to form a square */
     object-fit: cover; /* Ensure the image fits within the square without distortion */
@@ -1814,4 +1815,16 @@ h2 {
 
 .text-left {
     margin-left: -20px; /* Atur sesuai kebutuhan untuk menggeser elemen ke kiri */
+
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.background-shape {
+	width: 300px; /* lebar kontainer */
+	height: 200px; /* tinggi kontainer */
+	overflow: hidden; /* memotong konten yang melampaui batas kontainer */
+	border-radius: 50px; /* radius sudut */
+	position: relative;
 }

@@ -23,9 +23,9 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top transparent">
         <div class="container">
-        <a class="navbar-brand" href="#">MK<span class="highlight">A</span></a>
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand" href="#">MK<span class="highlight">A</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -50,11 +50,13 @@
     
     <!-- Hero Section -->
     <section id="hero" class="hero">
-    <div class="container">
-        <p class="lead">Mitra Karoseri Anda untuk Kendaraan Kuat dan Tangguh</p>
-        <div class="welcome-text">
-           
-            <div>"Material Terbaik, Karoseri Tangguh, Keandalan Tanpa Kompromi"</div>
+        <div class="container">
+            <p class="lead">Transforming your commercial vehicles</p>
+            <div class="welcome-text">
+                <div>WELCOME TO</div>
+                <div>CV. MANDIRI KERJA ABADI</div>
+                </div>
+            <a href="#about" class="btn btn-hero">Learn More</a>
         </div>
         <a href="#about" class="btn1">Learn More</a>
     </div>
@@ -222,7 +224,7 @@
     <!-- Parallax Section -->
     <section id="parallax" class="parallax">
         <div class="container text-center">
-        <h2 class="white-text">Kembangkan Potensi Usaha Anda Dengan Karoseri</h2>
+            <h2 class="white-text">Kembangkan Potensi Usaha Anda Dengan Karoseri</h2>
             <p>Mencari Solusi Bisnis Yang Tepat Untuk Kebutuhan Usaha Anda?</p>
         </div>
     </section>
