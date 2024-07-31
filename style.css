@@ -854,3 +854,964 @@ body {
 .about {
     top: 50px;
 }
+
+/* CSS file or style block */
+.move-up {
+    margin-top: -50px; /* Adjust the value to move the section up as needed */
+}
+
+/* CSS file or style block */
+.move-content-up {
+    margin-top: -60px; /* Adjust the value to move the content up as needed */
+}
+
+/* CSS file or style block */
+.move-content-up {
+    margin-top: -30px; /* Adjust the value to move the content up as needed */
+}
+
+.feature-box {
+    border: 1px solid #ddd; /* Optional: Add some styling to the feature boxes */
+    padding: 20px; /* Optional: Add some padding to the feature boxes */
+    text-align: center; /* Optional: Center align the text */
+}
+
+.feature-icon {
+    font-size: 2rem; /* Adjust the icon size */
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+.d-flex.flex-wrap.justify-content-between {
+    gap: 20px; /* Optional: Add some gap between the feature boxes */
+}
+/* CSS file or style block */
+.move-content-up {
+    margin-top: -30px; /* Adjust the value to move the content up as needed */
+}
+
+.feature-box {
+    border: 1px solid #ddd; /* Optional: Add some styling to the feature boxes */
+    padding: 20px; /* Optional: Add some padding to the feature boxes */
+    text-align: center; /* Optional: Center align the text */
+    height: 100%; /* Ensure all feature boxes are the same height */
+}
+
+.feature-icon {
+    font-size: 2rem; /* Adjust the icon size */
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+.row.d-flex.justify-content-around {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Evenly distribute the feature boxes */
+}
+
+.col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* CSS file or style block */
+.move-content-up {
+    margin-top: -30px; /* Adjust the value to move the content up as needed */
+}
+
+.feature-box {
+    border: 1px solid #ddd; /* Optional: Add some styling to the feature boxes */
+    padding: 20px; /* Optional: Add some padding to the feature boxes */
+    text-align: center; /* Center align the text */
+    height: 100%; /* Ensure all feature boxes are the same height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-icon {
+    font-size: 2rem; /* Adjust the icon size */
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+.d-flex.justify-content-around {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Evenly distribute the feature boxes */
+}
+
+.col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* CSS file or style block */
+.main-title {
+    margin-bottom: 30px; /* Adjust the value to create space between the main title and the about section */
+}
+
+.about {
+    margin-top: 50px; /* Adjust the value to move the section down */
+}
+
+.move-content-up {
+    margin-top: -30px; /* Adjust the value to move the content up as needed */
+}
+
+.feature-box {
+    border: 1px solid #ddd; /* Optional: Add some styling to the feature boxes */
+    padding: 20px; /* Optional: Add some padding to the feature boxes */
+    text-align: center; /* Center align the text */
+    height: 100%; /* Ensure all feature boxes are the same height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-icon {
+    font-size: 2rem; /* Adjust the icon size */
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+.d-flex.justify-content-around {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Evenly distribute the feature boxes */
+}
+
+.col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.team-image {
+    position: relative;
+    top: -100px; /* Sesuaikan nilai ini sesuai kebutuhan Anda */
+  }
+  
+  #pengajuan {
+    padding-top: 100px; /* Coba nilai yang lebih besar jika 70px masih terpotong */
+    position: relative;
+  }
+  #pengajuan {
+    scroll-margin-top: 30px;
+  }
+    
+  /* Content Section */
+.content-section {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.left-section {
+    background-color: #e31e24;
+    color: white;
+    padding: 40px;
+    flex: 1;
+}
+
+.left-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.left-section p {
+    font-size: 16px;
+}
+
+.right-section {
+    padding: 40px;
+    flex: 1;
+}
+
+.right-section h3 {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.right-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.right-section p {
+    font-size: 16px;
+    color: #333;
+}
+
+.content-section {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto; /* Default margin */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative; /* Added for positioning */
+    top: -50px; /* Adjust this value to move the section upwards or downwards */
+}
+
+
+.left-section {
+    background-color: #e31e24;
+    color: white;
+    padding: 40px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px; /* Adjust the height to make it more portrait-like */
+}
+
+.left-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.left-section p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.left-section {
+    background-color: #137c21;
+    color: white;
+    padding: 40px;
+    width: 50%; /* Make it narrow */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.left-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.left-section p {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Right Section */
+.right-section {
+    padding: 40px;
+    width: 70%; /* Make it wide */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-right: -60px;
+}
+
+.right-section h3 {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.right-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.right-section p {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+/* Kontainer utama untuk menampung kedua bagian */
+.content-section {
+    top: -90px;
+    position: relative;
+    width: 70%;
+    height: 100vh; /* Memastikan kontainer memenuhi tinggi viewport */
+    overflow: hidden;
+  
+}
+
+/* Left Section - Potret */
+.left-section {
+    position: absolute;
+    top: 0;
+    left: 195px;
+    width: 25%; /* Lebar bagian potret */
+    height: 70%; /* Tinggi bagian potret */
+    background-color: #137c21;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; /* Termasuk padding dalam ukuran elemen */
+   
+    top: 90%; /* Menurunkan posisi dari atas */
+
+}
+
+.left-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.left-section p {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Right Section - Landscape */
+.right-section {
+    position: absolute;
+    top: 0;
+    left: 40%; /* Mulai dari sisi kiri potret section */
+    width: 40%; /* Lebar bagian landscape */
+    height: 50%; /* Tinggi bagian landscape */
+    background-color: #e9e9e9;
+    color: white;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; 
+ 
+    top: 90%; /* Menurunkan posisi dari atas */
+}
+
+.right-section h3 {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.right-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.right-section p {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+#aboutt {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 20px;
+    background-color: #f4f4f4; /* Sesuaikan dengan warna latar belakang yang diinginkan */
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-section {
+    margin-right: 20px; /* Jarak antar bagian */
+}
+
+.right-section {
+    margin-left: 20px; /* Jarak antar bagian */
+}
+
+.left-section h2,
+.right-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.left-section p,
+.right-section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#about {
+    margin-top: 400px; /* Atur nilai ini sesuai dengan jarak yang diinginkan */
+}
+
+.left-section {
+    width: 370px; /* Sesuaikan dengan ukuran yang diinginkan */
+    padding: 20px;
+    background-color: rgb(20, 117, 37); /* Sesuaikan dengan background color yang sesuai */
+    color: white;
+    height: 520px;
+    margin-left: -45px;
+    top: 610px;
+}
+
+.left-section h2 {
+    font-size: 24px; /* Sesuaikan dengan ukuran font yang diinginkan */
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    font-size: 16px; /* Sesuaikan dengan ukuran font yang diinginkan */
+}
+
+.right-section {
+    width: 680px; /* Sesuaikan dengan ukuran yang diinginkan */
+    padding: 20px;
+    background-color: rgb(255, 255, 255); /* Sesuaikan dengan background color yang sesuai */
+    color: white;
+    height: 400px;
+    margin-left: -1px;
+    top: 610px;
+}
+
+.right-section {
+
+  
+    clip-path: polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 0 100%);
+}
+
+.right-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(212, 20, 20); /* Warna lipatan */
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.h21 {
+    font-weight: bold; /* Membuat teks menjadi bold */
+    font-size: 40px; /* Menyesuaikan ukuran font sesuai keinginan */
+    margin-left: 20px;
+}
+
+.p1 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.p1 {
+    text-align: left; /* Memastikan teks rata kiri */
+}
+
+.p1 {
+    text-align: left !important; /* Memaksa teks rata kiri */
+    margin: 0; /* Menghapus margin yang mungkin memengaruhi perataan */
+    padding: 0; /* Menghapus padding yang mungkin memengaruhi perataan */
+    margin-left: 20px;
+}
+
+.right-section p {
+    text-align: left; /* Memastikan teks rata kiri dalam elemen dengan kelas right-section */
+}
+
+.history-heading,
+.commitment-heading {
+    text-align: left; /* Memastikan teks rata kiri */
+    margin-top: 0; /* Menghapus margin atas default */
+    margin-bottom: 10px; /* Menambahkan jarak bawah */
+}
+
+.custom-heading {
+    margin-left: 2px; /* Atur margin kiri sesuai kebutuhan */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    text-align: left; /* Memastikan h2 rata kiri */
+}
+.h22 {
+    color: black; /* Mengatur warna teks menjadi hitam */
+    font-size: 13px; /* Mengatur ukuran font */
+    text-align: left !important; /* Mengatur perataan teks menjadi kiri */
+    margin-left: -525px; 
+}
+
+.text-left {
+   padding-left: 80px; /* Mengatur perataan teks menjadi kiri */
+}
+
+.about {
+    margin-top: -20px; /* Menggeser konten ke atas */
+}
+
+.about {
+    transform: translateY(-20px); /* Menggeser konten ke atas */
+}
+
+.text-left {
+    display: inline-block; /* Membatasi pseudo-elemen hanya di bawah teks */
+    position: relative; /* Mengatur posisi relatif untuk pseudo-elemen */
+    padding-bottom: 5px; /* Menambahkan ruang di bawah teks */
+}
+
+.text-left::after {
+    content: ""; /* Menghasilkan elemen kosong */
+    position: absolute; /* Mengatur posisi absolut relatif terhadap teks */
+    left: 80px; /* Menggeser garis ke kiri untuk memperpanjang ke kanan */
+    bottom: -20px; /* Posisi garis di bawah teks */
+    width: calc(100% + 700px); /* Lebar garis lebih panjang dari teks */
+    height: 2px; /* Ketebalan garis */
+    background-color: #25D366; /* Warna garis hijau WhatsApp */
+    z-index: -1; /* Menempatkan garis di belakang teks */
+}
+
+.image-container {
+    position: relative; /* Membuat elemen ini sebagai referensi untuk posisi absolut */
+}
+
+.image-container img {
+    position: relative; /* Menetapkan posisi relatif untuk mengatur posisi vertikal */
+    top: -153px; /* Sesuaikan nilai ini untuk menaikkan gambar */
+}
+
+.btn {
+    margin-top: 20px; /* Menurunkan tombol dari elemen di atasnya. Sesuaikan nilai sesuai kebutuhan */
+}
+
+
+.text-left2 {
+    display: inline-block; /* Membatasi pseudo-elemen hanya di bawah teks */
+    position: relative; /* Mengatur posisi relatif untuk pseudo-elemen */
+    padding-bottom: 5px; /* Menambahkan ruang di bawah teks */
+    padding-left: 78px;
+    padding-top: 40px;
+}
+
+.text-left2::after {
+    content: ""; /* Menghasilkan elemen kosong */
+    position: absolute; /* Mengatur posisi absolut relatif terhadap teks */
+    left: 80px; /* Menggeser garis ke kiri untuk memperpanjang ke kanan */
+    bottom: -20px; /* Posisi garis di bawah teks */
+    width: calc(100% + 700px); /* Lebar garis lebih panjang dari teks */
+    height: 2px; /* Ketebalan garis */
+    background-color: #25D366; /* Warna garis hijau WhatsApp */
+    z-index: -1; /* Menempatkan garis di belakang teks */
+}
+
+.produk-layanan-karoseri {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.produk-layanan-judul {
+    color: #003366;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.produk-layanan-subjudul {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.produk-layanan-garis {
+    border-bottom: 2px solid #ff0000;
+    margin-bottom: 30px;
+}
+
+.produk-layanan-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.produk-layanan-card {
+    width: 23%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.produk-layanan-card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.produk-layanan-card-content {
+    font-size: 14px;
+}
+
+.produk-layanan-read-more {
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.produk-layanan-karoseri {
+    max-width: 1200px;
+    margin-left: 62px; /* Menggeser 100px dari kiri */
+    padding: 20px;
+}
+ .parallax-custom {
+            background-image: url('assets/image/LOGOKANTOR.jpg'); /* Ganti dengan URL gambar Anda */
+            height: 300px; /* Ubah tinggi sesuai kebutuhan Anda */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+.container-custom {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center; /* Pusatkan teks dalam container */
+}
+
+.white-text-custom {
+    color: white;
+}
+.parallax-container {
+    position: relative;
+    width: 50%;
+    height: 300px;
+    overflow: hidden;
+    float: right;
+    margin-left: 20px;
+    background-color: #f0f0f0; /* Background color for visibility */
+}
+
+.parallax-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('assets/LOGOKANTOR.JPG'); /* Adjust path if needed */
+    /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    transform: translateZ(-1px) scale(1.5); /* Adjust scale if needed */
+    z-index: -1; /* Make sure this is behind other content */
+}
+.produk-layanan-karoseri {
+    margin-top: 20px; /* Mengatur jarak dari section di atasnya */
+    padding: 20px; /* Memberikan ruang dalam elemen */
+    background-color: #f9f9f9; /* Warna latar belakang untuk membedakan dengan section di atasnya */
+    border: 1px solid #ddd; /* Memberikan border untuk pembatas */
+}
+
+.produk-layanan-judul {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.produk-layanan-subjudul {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.produk-layanan-garis {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+.produk-layanan-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produk-layanan-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: calc(25% - 20px); /* Empat kartu dalam satu baris dengan jarak antar kartu */
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s;
+}
+
+.produk-layanan-card:hover {
+    transform: translateY(-5px);
+}
+
+.produk-layanan-card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.produk-layanan-card-content {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.produk-layanan-read-more {
+    color: #13681a;
+    text-decoration: none;
+}
+
+.produk-layanan-read-more:hover {
+    text-decoration: underline;
+}
+
+/* Mengatur warna teks judul */
+.produk-layanan-judul {
+    color: #004d00; /* Warna hijau tua yang tidak terlalu gelap */
+}
+
+/* Mengatur warna teks dan garis bawah pada tautan READ MORE */
+.produk-layanan-read-more {
+    color: #007b33; /* Warna hijau yang cerah dan kontras */
+    text-decoration: underline; /* Menambahkan garis bawah pada tautan */
+}
+
+.produk-layanan-read-more:hover {
+    color: #005600; /* Warna hijau sedikit lebih gelap saat hover */
+    text-decoration: none; /* Menghilangkan garis bawah saat hover */
+}
+
+/* Mengatur warna garis bawah dari judul */
+.produk-layanan-garis {
+    border-bottom: 2px solid #004d00; /* Warna hijau tua yang sama dengan teks judul */
+}
+
+/* Gaya untuk popup container */
+.popup-container {
+    display: none; /* Popup default tersembunyi */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Background hitam dengan opasitas tinggi */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Memastikan popup berada di atas konten lain */
+}
+
+/* Gaya untuk konten popup */
+.popup-content {
+    background: white; /* Background putih untuk konten popup */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+/* Gaya untuk tombol close */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
+.popup-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.article-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+    padding-bottom: 20px;
+}
+.article {
+    min-width: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.article img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.date {
+    color: #666;
+    font-size: 0.8em;
+}
+.category {
+    color: #666;
+    font-size: 0.8em;
+}
+.title {
+    font-weight: bold;
+    margin: 10px 0;
+}
+.read-more {
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* CSS untuk mengatur ukuran card artikel */
+.article-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 1px;
+    padding-bottom: 20px;
+    padding: 0 20px; /* Menambahkan padding kiri dan kanan untuk container */
+}
+
+.article {
+    min-width: 300px;
+    max-width: 300px; /* Membatasi lebar maksimum card */
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box; /* Agar padding termasuk dalam ukuran elemen */
+    margin: 0 auto; /* Memusatkan card dalam container */
+    background-color: #fff; /* Menambahkan background putih pada card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan pada card */
+
+}
+
+.article img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.date, .category {
+    color: #666;
+    font-size: 0.8em;
+}
+
+.title {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.read-more {
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.h21 {
+    font-size: 30px; /* Sesuaikan dengan ukuran yang diinginkan */
+  }
+  .h22 {
+    font-size: 15px; /* Sesuaikan ukuran huruf sesuai kebutuhan */
+    color: #006400; /* Warna hijau tua */
+    margin-top: -74px; 
+ padding-left: 20px;
+  }
+  
+  .karoseri-judul {
+
+    font-size: 5px; /* Sesuaikan ukuran font sesuai kebutuhan */
+  }
+  
+  .logokntr {
+    max-width: 100%; /* Agar gambar tidak melampaui kontainer */
+    height: auto; /* Menjaga rasio aspek gambar */
+    border-radius: 8px; /* Opsional: Menambahkan sudut yang melengkung pada gambar */
+  }
+  
+  .image-container {
+    display: flex; /* Menggunakan Flexbox untuk penataan */
+    align-items: flex-start; /* Menyelaraskan gambar di atas dengan teks */
+  }
+  
+  .image-container img {
+    max-width: 300px; /* Atur ukuran maksimal gambar sesuai kebutuhan */
+    margin-right: 20px; /* Jarak antara gambar dan teks */
+  }
+  
+  .text-content {
+    flex: 1; /* Membiarkan teks mengambil ruang yang tersisa */
+  }
+  
+  .parallax2 {
+    background-image: url('assets/image/LOGOKANTOR.JPG'); /* Pastikan path gambar benar */
+    height: 500px; /* Atur tinggi sesuai kebutuhan */
+    background-attachment: fixed; /* Mengaktifkan efek parallax */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url('assets/image/LOGOKANTOR.JPG'); /* Path ke gambar */
+    height: 500px; /* Tinggi gambar */
+    width: 90%; /* Lebar gambar */
+    background-position: center; /* Memastikan gambar berada di tengah */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    background-size: cover; /* Memastikan gambar tidak terpotong, akan menyesuaikan dengan area */
+    background-attachment: fixed; /* Efek parallax */
+    margin: 0 auto; /* Memusatkan elemen */
+   margin-left: 70px;
+   margin-left: 70px;
+  
+    border-radius: 20px; /* Semua sudut melengkung dengan radius 20px */
+}
+
+
+
+
+.content {
+    padding: 20px;
+    background-color: white; /* Warna latar belakang konten */
+}
+
+.parallax2-image {
+    position: relative;
+    height: 100px; /* Sesuaikan dengan kebutuhan */
+    overflow: hidden;
+}
+
+.parallax2-image img {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    transform: translateY(0); /* Atur dengan JavaScript */
+
+}
+
+.text-left {
+    margin-left: -20px; /* Atur sesuai kebutuhan untuk menggeser elemen ke kiri */
+}

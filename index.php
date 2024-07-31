@@ -40,98 +40,143 @@
                         <a class="nav-link" href="#products">Produk</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#After Sales">After Sales</a>
+                        <a class="nav-link" href="#pengajuan">After Sales</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    
     <!-- Hero Section -->
     <section id="hero" class="hero">
     <div class="container">
-        <p class="lead">Transforming your commercial vehicles</p>
+        <p class="lead">Mitra Karoseri Anda untuk Kendaraan Kuat dan Tangguh</p>
         <div class="welcome-text">
-            <div>WELCOME TO</div>
-            <div>CV. MANDIRI KERJA ABADI</div>
+           
+            <div>"Material Terbaik, Karoseri Tangguh, Keandalan Tanpa Kompromi"</div>
         </div>
-        <a href="#about" class="btn">Learn More</a>
+        <a href="#about" class="btn1">Learn More</a>
     </div>
+
+    
+</section>
+<section id="aboutt">
+    <div class="left-section">
+        <h1 class= "h21">Karoseri Yang Berorientasi Pada Kualitas</h1>
+        <p class='p1'>Karoseri kami dikenal karena keunggulan dalam penggunaan material di atas rata-rata dan komitmen untuk menghasilkan kualitas terbaik. Kami berani mengambil risiko biaya tinggi untuk memastikan setiap produk yang kami hasilkan memiliki ketahanan dan kualitas yang luar biasa. Dengan fokus pada ketahanan dan kualitas, kami terus menghadirkan karoseri yang kokoh, tahan lama, dan mampu bertahan di berbagai medan, memenuhi kebutuhan pelanggan dengan standar tertinggi.</p>
+    </div>
+    <div class="right-section" style="text-align: left;">
+  
+  <h1 class= "h22">About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+
+  <h2 class="h23" style="text-align: left; font-size: 24px;">
+  Kami mengutamakan kualitas dalam setiap karoseri yang kami buat, dengan spesialisasi khusus pada 
+  <span style="background-color: rgba(0, 100, 0, 0.3);">Dump Truck</span> dan 
+  <span style="background-color: rgba(0, 100, 0, 0.3);">Tangki</span> sebagai produk unggulan kami. 
+  Selain itu, kami juga menawarkan berbagai pilihan karoseri lainnya yang memenuhi beragam kebutuhan pelanggan.
+</h2>
+
+</div>
+
 </section>
 
-    <!-- About Us Section -->
-    <section id="about" class="about">
+
+
+
+  <!-- About Us Section -->
+  <section id="about" class="about">
+
     <div class="container">
-        <h2 class="text-center mb-5 fw-bold">Tentang Kami</h2>
+        <h2 class="text-left mb-5 fw-bold">Tentang Kami</h2>
         <div class="row">
+        <div class="parallax2"></div>
             <div class="col-md-12">
-                <div class="karir-section d-flex align-items-center">
-                    <div class="image-container">
-                        <img src="assets/image/LOGOKANTOR.jpg" alt="About Us" class="team-image img-fluid mb-4">
-                    </div>
-                    <div class="content ms-4">
+           
+                <div class="karir-section d-flex align-items-center move-content-up">
+   
+                <div class="content me-4">
+                    <!-- Using 'me-4' for margin end -->
                         <p class="section-label">HISTORI</p>
-                        <h2 class="section-title">Mandiri Kerja Abadi</h2>
-                        <p class="section-description">
-                            Mandiri Kerja Abadi berdiri sejak 30 Maret 2016. Jauh sebelum menjadi perusahaan karoseri, saat itu bernama UD. Mandiri Kerja Abadi adalah perusahaan transportasi kendaraan Niaga. Dimana semua perakitan setiap unit nya dikerjakan secara mandiri oleh enginer handal yang dimiliki oleh perusahaan. Banyak tahapan trial & error mengenaI perakitan bak, sampai disuatu titik perusahaan menemukan spesifikasi material yang terbaik untuk pembuatan sebuah bak.
 
-Hingga pada tanggal 30 Maret 2016 perusahaan kami resmi menjadi karoseri terdaftar dibawah Naungan Dinas perhubungan demi mendapatkan kepercayaan lebih di mata konsumen dengan pengalaman lebih dari 10 tahun, kami percaya mampu memenuhi ekspektasi setiap konsumen kami. Salam hangat dari kami.</p>
-                        <a href="#about" class="btn">Learn More</a>
+                        <h2 class="section-title">Mandiri Kerja Abadi</h2>
+                      
+                        <p class="section-description">
+                            <b>Tentang Mandiri Kerja Abadi - Karoseri terbaik dan terpercaya </b>
+                            <br><br>
+                            Mandiri Kerja Abadi, didirikan pada 30 Maret 2016, awalnya bernama UD. Mandiri Kerja Abadi, adalah perusahaan karoseri yang berbasis di Jawa. Dengan lebih dari 10 tahun pengalaman, kami memulai perjalanan kami dengan perakitan kendaraan yang dilakukan secara mandiri oleh tim insinyur kami yang berpengalaman. Melalui berbagai tahap trial & error, kami berhasil menemukan spesifikasi material terbaik untuk pembuatan bak kendaraan yang kokoh dan berkualitas tinggi.
+                            <br><br>
+                            Sejak resmi menjadi karoseri terdaftar di bawah Dinas Perhubungan pada 30 Maret 2016, kami telah sukses memproduksi karoseri yang tahan lama dan andal. Produk kami telah menyentuh berbagai kota di seluruh Jawa, serta berbagai wilayah di seluruh Indonesia, termasuk di luar Jawa. Kami berkomitmen untuk menyediakan solusi karoseri yang memenuhi harapan dan kebutuhan pelanggan di berbagai daerah.
+                            <br><br>
+                            Mandiri Kerja Abadi terus berupaya untuk memberikan produk berkualitas tinggi yang terbukti kokoh dan dapat diandalkan di berbagai kondisi. Dengan pengalaman dan dedikasi kami, kami yakin mampu memenuhi berbagai kebutuhan karoseri di seluruh Indonesia.
+                            <br><br>
+                            Salam hangat dari kami, Mandiri Kerja Abadi, penyedia karoseri kokoh dan berkualitas di seluruh Indonesia.
+                        </p>
+                        <a href="#" class="btn" id="openPopup">Learn More</a>
+                        <div id="popup" class="popup-container">
+    <div class="popup-content">
+        <span class="close-btn" id="closePopup">&times;</span>
+        <h2>Visi dan Misi Perusahaan</h2>
+        <img src="path/to/your-image.jpg" alt="Visi dan Misi" class="popup-image">
+        <p>Visi kami adalah ...</p>
+        <p>Misi kami adalah ...</p>
+       
+    </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-md-6 mb-3">
-                <div class="feature-box">
-                    <div class="feature-icon">
-                        <i class="bi bi-people-fill"></i>
-                    </div>
-                    <h5>Expert Team</h5>
-                    <p>Our team of experts is dedicated to delivering the highest quality service to our clients.</p>
+        <section class="produk-layanan-karoseri">
+            <h2 class="produk-layanan-judul">Produk Layanan Yang Kami Tawarkan</h2>
+            <p class="produk-layanan-subjudul">Kami Melayani pembuatan Produk-Produk Karoseri seperti Dump Trucks, Trailer, Open Cargo, Box Besi & Aluminium, Wing Box, Arm Roll, Self Loader, Skylift, Flat Deck, Car Carrier, Water truck, Aero Dump, Man Hauler serta Jasa Repair Karoseri dan Jasa pengecatan</p>
+            <div class="produk-layanan-garis"></div>
+            
+            <div class="produk-layanan-container">
+                <div class="produk-layanan-card">
+                    <h3 class="produk-layanan-card-title">SELF LOADER</h3>
+                    <p class="produk-layanan-card-content">Produk Dirancang Untuk Penggunaan Tertentu Membawa Alat-Alat berat</p>
+                    <a href="#" class="produk-layanan-read-more">READ MORE +</a>
+                </div>
+                <div class="produk-layanan-card">
+                    <h3 class="produk-layanan-card-title">DUMP TRUCK</h3>
+                    <p class="produk-layanan-card-content">Produk Dirancang Untuk Penggunaan Tertentu Membawa Material Padat</p>
+                    <a href="#" class="produk-layanan-read-more">READ MORE +</a>
+                </div>
+                <div class="produk-layanan-card">
+                    <h3 class="produk-layanan-card-title">STELL BOX</h3>
+                    <p class="produk-layanan-card-content">Desain Serbaguna Untuk Memenuhi Semua Kebutuhan Transportasi Keseharian anda</p>
+                    <a href="#" class="produk-layanan-read-more">READ MORE +</a>
+                </div>
+                <div class="produk-layanan-card">
+                    <h3 class="produk-layanan-card-title">TANGKI CPO</h3>
+                    <p class="produk-layanan-card-content">Produk Ini Dirancang Untuk Mengangkut Material Berbahan Cair</p>
+                    <a href="#" class="produk-layanan-read-more">READ MORE +</a>
                 </div>
             </div>
-            <div class="col-md-6 mb-3">
-                <div class="feature-box">
-                    <div class="feature-icon">
-                        <i class="bi bi-clock-fill"></i>
-                    </div>
-                    <h5>Timely Delivery</h5>
-                    <p>We ensure that all projects are completed on time, every time.</p>
-                </div>
-            </div>
-            <div class="col-md-6 mb-3">
-                <div class="feature-box">
-                    <div class="feature-icon">
-                        <i class="bi bi-geo-alt-fill"></i>
-                    </div>
-                    <h5>Global Reach</h5>
-                    <p>Our services are available globally, providing solutions to clients worldwide.</p>
-                </div>
-            </div>
-        </div>
+        </section>
     </div>
 </section>
 
 
-    <!-- Employee Section -->
+<!-- Employee Section -->
     <section id="employees" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-4 fw-bold">Team Kami</h2>
+            <h2 class="text-center mb-4 fw-bold">HIGHLIGHT</h2>
             <div id="employeeCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-12">
-                                <img src="assets/image/employee1.jpg" class="d-block w-100 mb-3" alt="Employee 1">
+                                <img src="assets/image/highlight1.jpg" class="d-block w-100 mb-3" alt="Employee 1">
                                 <h5 class="text-center">Employee 1</h5>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12 d-none d-md-block">
-                                <img src="assets/image/employee2.jpg" class="d-block w-100 mb-3" alt="Employee 2">
+                                <img src="assets/image/highlight2.jpg" class="d-block w-100 mb-3" alt="Employee 2">
                                 <h5 class="text-center">Employee 2</h5>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12 d-none d-lg-block">
-                                <img src="assets/image/employee3.jpg" class="d-block w-100 mb-3" alt="Employee 3">
+                                <img src="assets/image/highlight3.jpg" class="d-block w-100 mb-3" alt="Employee 3">
                                 <h5 class="text-center">Employee 3</h5>
                             </div>
                         </div>
@@ -139,15 +184,15 @@ Hingga pada tanggal 30 Maret 2016 perusahaan kami resmi menjadi karoseri terdaft
                     <div class="carousel-item">
                         <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-12">
-                                <img src="assets/image/employee4.jpg" class="d-block w-100 mb-3" alt="Employee 4">
+                                <img src="assets/image/highlight4.jpg" class="d-block w-100 mb-3" alt="Employee 4">
                                 <h5 class="text-center">Employee 4</h5>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12 d-none d-md-block">
-                                <img src="assets/image/employee5.jpg" class="d-block w-100 mb-3" alt="Employee 5">
+                                <img src="assets/image/highlight5.jpg" class="d-block w-100 mb-3" alt="Employee 5">
                                 <h5 class="text-center">Employee 5</h5>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12 d-none d-lg-block">
-                                <img src="assets/image/employee6.jpg" class="d-block w-100 mb-3" alt="Employee 6">
+                                <img src="assets/image/highlight6.jpg" class="d-block w-100 mb-3" alt="Employee 6">
                                 <h5 class="text-center">Employee 6</h5>
                             </div>
                         </div>
@@ -456,6 +501,33 @@ Hingga pada tanggal 30 Maret 2016 perusahaan kami resmi menjadi karoseri terdaft
             </div>
         </div>
     </section>
+    <div class="berita-artikel-terbaru">
+    <h1>Berita & Artikel Terbaru</h1>
+    <div class="article-container">
+        <div class="article">
+           <img src="assets/image/odol.png" alt="">
+            <div class="date">13 Jul 2023</div>
+            <div class="category">car repairing, services</div>
+            <div class="title">Jelang Zero ODOL 2023, Kemenhub Terus Sosialisasikan Penegakan Hukum Truk ODOL</div>
+            <button class="read-more">→</button>
+        </div>
+        <div class="article">
+      <img src="assets/image/hidrolik.jpg" alt="">
+            <div class="date">13 Jul 2023</div>
+            <div class="category">car repairing, services</div>
+            <div class="title">Tips Pengoperasian Sistem Hydrolik Dump Truck</div>
+            <button class="read-more">→</button>
+        </div>
+        <div class="article">
+       <img src="assets/image/unit.JPG" alt="">
+            <div class="date">13 Jul 2023</div>
+            <div class="category">car repairing, services</div>
+            <div class="title">Bingung Nyari Merek Mobil Untuk Bisnis Anda??</div>
+            <button class="read-more">→</button>
+        </div>
+    </div>
+</div>
+
     <!-- Location Section -->
     <section id="location" class="location">
         <div class="container">
@@ -513,31 +585,96 @@ Hingga pada tanggal 30 Maret 2016 perusahaan kami resmi menjadi karoseri terdaft
             </div>
         </div>
     </footer>
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const navbar = document.querySelector('.navbar');
 
-    <!-- script -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const navbar = document.querySelector('.navbar');
-
-            function onScroll() {
-                if (window.scrollY > 50) {
-                    navbar.classList.add('scrolled');
-                    navbar.classList.remove('transparent');
-                } else {
-                    navbar.classList.add('transparent');
-                    navbar.classList.remove('scrolled');
-                }
+        function onScroll() {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+                navbar.classList.remove('transparent');
+            } else {
+                navbar.classList.add('transparent');
+                navbar.classList.remove('scrolled');
             }
+        }
 
-            window.addEventListener('scroll', onScroll);
+        window.addEventListener('scroll', onScroll);
 
-            // Set initial state
-            onScroll();
+        // Set initial state
+        onScroll();
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+    const navbar = document.querySelector('.navbar');
+
+    function onScroll() {
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+            navbar.classList.remove('transparent');
+        } else {
+            navbar.classList.add('transparent');
+            navbar.classList.remove('scrolled');
+        }
+    }
+
+    window.addEventListener('scroll', onScroll);
+
+    // Set initial state
+    onScroll();
+});
+
+window.addEventListener('scroll', function() {
+    const aboutSection = document.getElementById('aboutt');
+    const rect = aboutSection.getBoundingClientRect();
+
+    if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+        aboutSection.classList.add('visible');
+    } else {
+        aboutSection.classList.remove('visible');
+    }
+});
+
+window.addEventListener('scroll', function() {
+  const parallax = document.querySelector('.parallax-image');
+  const scrollPosition = window.pageYOffset;
+  
+  parallax.style.transform = `translateY(${scrollPosition * 0.5}px)`;
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const popup = document.getElementById('popup');
+    const openPopupBtn = document.getElementById('openPopup');
+    const closePopupBtn = document.getElementById('closePopup');
+
+    if (popup && openPopupBtn && closePopupBtn) {
+        // Buka popup ketika tombol diklik
+        openPopupBtn.addEventListener('click', (event) => {
+            event.preventDefault(); // Mencegah scroll ke ID
+            popup.style.display = 'flex'; // Tampilkan popup
         });
-    </script>
-</body>
 
+        // Tutup popup ketika tombol close diklik
+        closePopupBtn.addEventListener('click', () => {
+            popup.style.display = 'none'; // Sembunyikan popup
+        });
+
+        // Tutup popup jika klik di luar popup content
+        window.addEventListener('click', (event) => {
+            if (event.target === popup) {
+                popup.style.display = 'none'; // Sembunyikan popup
+            }
+        });
+    }
+});
+window.addEventListener('scroll', function() {
+            let parallaxImage = document.querySelector('.parallax2-image img');
+            let scrollPosition = window.pageYOffset;
+            parallaxImage.style.transform = `translateY(${scrollPosition * 0.5}px)`;
+        });
+</script>
+</body>
 </html>
